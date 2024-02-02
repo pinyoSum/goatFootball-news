@@ -1,0 +1,59 @@
+.footer {
+    color: #101452;
+    .footer-logo {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(164,61,87,255);
+        img {
+            width: 240px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .massage {
+        font-size: 0.85rem;
+        padding: 10px 0;
+    }
+
+    .contract {
+        border-top: 1px solid #c6c6c6;
+        border-bottom: 1px solid #c6c6c6;
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        .social {
+            img {
+                width: 45px;
+                height: 45px;
+                padding: 5px 5px;
+            }
+        }
+
+        .service {
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: center;
+            white-space: nowrap;
+            flex-wrap: wrap;
+
+            div {
+                padding: 5px 8px;
+
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .footer-massage{
+        font-size: 0.85rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+    }
+}

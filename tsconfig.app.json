@@ -1,0 +1,18 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/services/api/tipsFromSiean.json"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "composite": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/page/*": ["./src/views/page/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/api/*": ["./src/services/api/*"]
+    }
+  }
+}

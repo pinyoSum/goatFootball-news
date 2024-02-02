@@ -1,0 +1,114 @@
+.master-prediction {
+    .master-predict {
+        
+        padding-left: 16px;
+        align-items: center;
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
+
+    .match-time-start {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .result-match {
+        font-weight: 600;
+    }
+
+    .location-match {
+        font-size: 14px;
+        color: rgb(122, 122, 122);
+    }
+
+    .main-title {
+        color: #101452;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .btn-wrapper-accordion{
+        border: none;
+        background-color: white;
+    }
+    .float-right {
+        float: right;
+    }
+    .rotate-active {
+        transform: rotate(180deg);
+    }
+
+    .card {
+        background-color: rgba(243, 243, 243, 255);
+        border: none;
+    }
+
+    .sub-title {
+        color: #101452;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .accordion-title {
+        text-align: left;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .accordion-text {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .accordion-body {
+        padding: 0;
+        margin-top: 8px;
+    }
+
+    .time-match {
+        border-right: 1px solid rgba(128, 128, 128, 0.199);
+    }
+
+    .accordion {
+        --bs-accordion-active-bg: none;
+        --bs-accordion-btn-focus-box-shadow: none;
+        --bs-accordion-border-color: none;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+        --bs-accordion-btn-icon: url('../icon/angle-down-solid.svg');
+        --bs-accordion-btn-active-icon: url('../icon/angle-down-solid.svg');
+    }
+    .wrapper-match-detail {
+        padding-top: 16px;
+        padding-right: 8px;
+        padding-left: 8px;
+        background-color: rgb(255, 255, 255);
+    }
+    .accordion-button {
+        padding: 0;
+        margin-top: 16px;
+    }
+    .wrapper-master {
+        border-radius: 16px;
+    }
+
+    .custom-box {
+        width: 80%;
+        padding: 20px;
+        color: white;
+        background-color: rgb(46, 182, 136);
+        clip-path: polygon(0% 0%, 90% 0%, 85% 100%, 0% 100%);
+    }
+
+    .wrapper-builder {
+        background-color: white;
+    }
+
+    .builder-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

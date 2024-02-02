@@ -1,0 +1,70 @@
+/* สำหรับจอ Desktop */
+@media (min-width: 600px) {
+
+    /* รูปแบบการแสดงผลเฉพาะจอ Desktop */
+    .header-desktop {
+        display: block;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .footer {
+        .contract {
+            display: flex !important;
+            padding: 10px 0px;
+
+            .social {
+                display: flex !important;
+
+                img {
+                    width: 55px !important;
+                    height: 55px !important;
+                    padding: 10px 5px !important;
+                }
+            }
+            .service {
+                justify-content: end !important;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+/* สำหรับจอ Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    /* รูปแบบการแสดงผลเฉพาะจอ Tablet */
+}
+
+/* สำหรับจอ Mobile 476 =>  iPhone 13 mini ,  iPhone 14 Pro Max => 460*/
+@media (max-width: 599px) {
+    #backToTopButton {
+        display: block;
+        background: none;
+        border: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 1;
+        outline: none;
+        cursor: pointer;
+        background: linear-gradient(to right, #c00424, #b0041c);
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+      }
+
+    /* รูปแบบการแสดงผลเฉพาะจอ Mobile */
+    .header-desktop {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+}
